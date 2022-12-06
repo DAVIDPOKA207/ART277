@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ORDER NOW</title>
+
+    <style>
+
+        body{font-family:sans-serif;
+                color:rgb(123, 255, 47);
+         background:url("background.jpg.jpg")no-repeat;
+        background-size: cover;}
+        .items,a:hover{
+            color: rgb(255, 204, 0);
+        }
+
+        form{text-align: center;}
+
+        table{align-self: center;}
+
+        td{font-weight: bold;}
+
+        input{font-weight: bold;}
+
+        .btn{
+            width: 100px;
+        }
+        
+        </style>
+
+</head>
+<body>
+    
+<h1 style="text-align: center;color: greenyellow;">ORDER FOOD NOW</h1>
+<form name="ORDER">
+<b>Costumer Name:</b> <input type="text" placeholder="Costumer Name" size=28/>&nbsp;&nbsp;&nbsp;
+<b>Phone Number:</b> <input type="text" placeholder="Phone Number" size=28/>&nbsp;&nbsp;&nbsp;
+<b>Costumer Email:</b> <input type="text" placeholder="Email" size=28/><br ><br >
+
+<table>
+<tr>
+    <th>FOOD IMAGES:</th>
+    <th>FOOD CHOICE:</th>
+    <th>QUANTITY:</th>
+    <th>UNIT PRICE:</th>
+    <th>TOTAL PRICE:</th>
+</tr>
+<tr>
+    <td> <img src="SALAD.jpg.jfif" width="108" height="108"></td>
+    <td><input type="checkbox" value="SALAD">SALAD:</input></td>
+    <td><input type="text" size=10></input</td>
+    <td><input type="text" value="250.00" readonly size=10></input></td>
+    <td><input type="text" size=10 disabled></input></td>
+</tr>
+<tr>
+    <td> <img src="POTATO SALAD.jpg.jpg" width="108" height="108"></td>
+    <td><input type="checkbox" value="FRIED RICE">POTATOE SALAD:</input></td>
+    <td><input type="text" size=10></input</td>
+    <td><input type="text" value="250.00" readonly size=10></input></td>
+    <td><input type="text" size=10 disabled></input></td>
+</tr>
+<tr>
+    <td> <img src="SANDWICH.jpg.jpg" width="108" height="108"></td>
+    <td><input type="checkbox" value="JOLOF">SANDWICH:</input></td>
+    <td><input type="text" size=10></input</td>
+    <td><input type="text" value="250.00" readonly size=10></input></td>
+    <td><input type="text" size=10 disabled></input></td>
+</tr>
+<tr>
+    <td> <img src="MEAT PIE.jpg.jpg" width="108" height="108"></td>
+    <td><input type="checkbox" value="FUFU">MEAT:</input></td>
+    <td><input type="text" size=10></input</td>
+    <td><input type="text" value="250.00" readonly size=10></input></td>
+    <td><input type="text" size=10 disabled></input></td>
+</tr>
+<tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>Total:</td>
+    <td><input type="text"size=10 disabled></td>
+</tr>
+<tr>
+    <td colspan=5><input type="submit" value="Calculate Order Total" class="btn"></input>
+    <input type="reset" value="Clear Order" class="btn"></input></td>
+</tr>
+</table>
+</form>
+</body>
+</html>
